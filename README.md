@@ -10,152 +10,152 @@ El conjunto de datos combina información demográfica, medidas corporales, resu
 Está destinado a fines educativos, a la investigación y al desarrollo de modelos predictivos en el ámbito sanitario.
 
 DICCIONARIO DE DATOS:
-Identificación del Paciente
-1.	Patient_ID - Tipo: Numérico (entero)
-    •	Descripción: Identificador único asignado a cada paciente.
+Identificación del Paciente<br>
+1.	Patient_ID - Tipo: Numérico (entero)<br>
+    •	Descripción: Identificador único asignado a cada paciente.<br>
 
-Datos Demográficos
-2.	Age - Tipo: Numérico
+Datos Demográficos<br>
+2.	Age - Tipo: Numérico<br>
     •	Descripción: Edad del paciente en años.
-3.	Gender - Tipo: Categórico
-    •	Valores posibles: Male, Female, Other
-    •	Descripción: Género del paciente.
-4.	Country - Tipo: Texto
-    •	Descripción: País de residencia del paciente.
+3.	Gender - Tipo: Categórico<br>
+    •	Valores posibles: Male, Female, Other<br>
+    •	Descripción: Género del paciente.<br>
+4.	Country - Tipo: Texto<br>
+    •	Descripción: País de residencia del paciente.<br>
 
-Medidas Antropométricas
-5.	Height_cm - Tipo: Numérico
-    •	Unidad: centímetros (cm)
-    •	Descripción: Altura del paciente.
-6.	Weight_kg - Tipo: Numérico
-    •	Unidad: kilogramos (kg)
-    •	Descripción: Peso corporal.
-7.	BMI - Tipo: Numérico
-    •	Unidad: kg/m²
-    •	Descripción: Índice de Masa Corporal.
-8.	WaistCircumferencecm - Tipo: Numérico
-    •	Unidad: centímetros (cm)
-    •	Descripción: Circunferencia de cintura.
+Medidas Antropométricas<br>
+5.	Height_cm - Tipo: Numérico<br>
+    •	Unidad: centímetros (cm)<br>
+    •	Descripción: Altura del paciente.<br>
+6.	Weight_kg - Tipo: Numérico<br>
+    •	Unidad: kilogramos (kg)<br>
+    •	Descripción: Peso corporal.<br>
+7.	BMI - Tipo: Numérico<br>
+    •	Unidad: kg/m²<br>
+    •	Descripción: Índice de Masa Corporal.<br>
+8.	WaistCircumferencecm - Tipo: Numérico<br>
+    •	Unidad: centímetros (cm)<br>
+    •	Descripción: Circunferencia de cintura.<br>
 
-Indicadores Glucémicos - Blood_Glucose
-    •	Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Nivel de glucosa en sangre.
-10.	HbA1c - Tipo: Numérico
-    •	Unidad: %
-    •	Descripción: Hemoglobina glucosilada, refleja el promedio de glucosa de los últimos 2-3 meses.
-11.	FastingBloodSugar - Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Glucemia en ayunas.
-12.	Insulin_Level - Tipo: Numérico
-    •	Unidad: μU/mL
-    •	Descripción: Nivel de insulina en sangre.
+Indicadores Glucémicos - Blood_Glucose<br>
+    •	Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Nivel de glucosa en sangre.<br>
+10.	HbA1c - Tipo: Numérico<br>
+    •	Unidad: %<br>
+    •	Descripción: Hemoglobina glucosilada, refleja el promedio de glucosa de los últimos 2-3 meses.<br>
+11.	FastingBloodSugar - Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Glucemia en ayunas.<br>
+12.	Insulin_Level - Tipo: Numérico<br>
+    •	Unidad: μU/mL<br>
+    •	Descripción: Nivel de insulina en sangre.<br>
 
-Presión Arterial
-13.	BloodPressureSystolic - Tipo: Numérico
-    •	Unidad: mmHg
-    •	Descripción: Presión arterial sistólica.
-14.	BloodPressureDiastolic - Tipo: Numérico
-    •	Unidad: mmHg
-    •	Descripción: Presión arterial diastólica.
+Presión Arterial<br>
+13.	BloodPressureSystolic - Tipo: Numérico<br>
+    •	Unidad: mmHg<br>
+    •	Descripción: Presión arterial sistólica.<br>
+14.	BloodPressureDiastolic - Tipo: Numérico<br>
+    •	Unidad: mmHg<br>
+    •	Descripción: Presión arterial diastólica.<br>
 
-Perfil Lipídico - Total_Cholesterol
-    •	Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Colesterol total.
-16.	HDL - Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Colesterol HDL ("colesterol bueno").
-17.	LDL - Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Colesterol LDL ("colesterol malo").
-18.	Triglycerides - Tipo: Numérico
-    •	Unidad: mg/dL
-    •	Descripción: Nivel de triglicéridos.
+Perfil Lipídico - Total_Cholesterol<br>
+    •	Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Colesterol total.<br>
+16.	HDL - Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Colesterol HDL ("colesterol bueno").<br>
+17.	LDL - Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Colesterol LDL ("colesterol malo").<br>
+18.	Triglycerides - Tipo: Numérico<br>
+    •	Unidad: mg/dL<br>
+    •	Descripción: Nivel de triglicéridos.<br>
 
-Indicadores Fisiológicos
-19.	Heart_Rate - Tipo: Numérico
-    •	Unidad: latidos por minuto (bpm)
-    •	Descripción: Frecuencia cardíaca.
+Indicadores Fisiológicos<br>
+19.	Heart_Rate - Tipo: Numérico<br>
+    •	Unidad: latidos por minuto (bpm)<br>
+    •	Descripción: Frecuencia cardíaca.<br>
 
-Actividad Física
-20.	PhysicalActivityLevel - Tipo: Categórico
-    •	Valores posibles: Low, Moderate, High
-    •	Descripción: Nivel general de actividad física.
-21.	ExerciseHoursPer_Week - Tipo: Numérico
-    •	Unidad: horas por semana
-    •	Descripción: Tiempo destinado al ejercicio físico semanal.
-22.	DailyWalkingMinutes - Tipo: Numérico
-    •	Unidad: minutos por día
-    •	Descripción: Minutos caminados diariamente.
+Actividad Física<br>
+20.	PhysicalActivityLevel - Tipo: Categórico<br>
+    •	Valores posibles: Low, Moderate, High<br>
+    •	Descripción: Nivel general de actividad física.<br>
+21.	ExerciseHoursPer_Week - Tipo: Numérico<br>
+    •	Unidad: horas por semana<br>
+    •	Descripción: Tiempo destinado al ejercicio físico semanal.<br>
+22.	DailyWalkingMinutes - Tipo: Numérico<br>
+    •	Unidad: minutos por día<br>
+    •	Descripción: Minutos caminados diariamente.<br>
 
-Hábitos Alimenticios
-23.	Diet_Quality - Tipo: Categórico
-    •	Valores posibles: Healthy, Average, Poor
-    •	Descripción: Calidad general de la alimentación.
-24.	SugarIntakeLevel - Tipo: Categórico
-    •	Valores posibles: Low, Moderate, High
-    •	Descripción: Nivel de consumo de azúcar.
+Hábitos Alimenticios<br>
+23.	Diet_Quality - Tipo: Categórico<br>
+    •	Valores posibles: Healthy, Average, Poor<br>
+    •	Descripción: Calidad general de la alimentación.<br>
+24.	SugarIntakeLevel - Tipo: Categórico<br>
+    •	Valores posibles: Low, Moderate, High<br>
+    •	Descripción: Nivel de consumo de azúcar.<br>
 
-Estilo de Vida
-25.	Sleep_Hours - Tipo: Numérico
-    •	Unidad: horas por día
-    •	Descripción: Cantidad promedio de horas de sueño.
-26.	Stress_Level - Tipo: Categórico
-    •	Valores posibles: Low, Moderate, High
-    •	Descripción: Nivel percibido de estrés.
-27.	Smoking_Status - Tipo: Categórico
-    •	Valores posibles: Never, Former, Current
-    •	Descripción: Estado de tabaquismo.
-28.	Alcohol_Consumption - Tipo: Categórico
-    •	Valores posibles: Never, Occasionally, Frequently
-    •	Descripción: Frecuencia de consumo de alcohol.
-29.	DailyWaterIntake_L - Tipo: Numérico
-    •	Unidad: litros por día
-    •	Descripción: Consumo diario de agua.
+Estilo de Vida<br>
+25.	Sleep_Hours - Tipo: Numérico<br>
+    •	Unidad: horas por día<br>
+    •	Descripción: Cantidad promedio de horas de sueño.<br>
+26.	Stress_Level - Tipo: Categórico<br>
+    •	Valores posibles: Low, Moderate, High<br>
+    •	Descripción: Nivel percibido de estrés.<br>
+27.	Smoking_Status - Tipo: Categórico<br>
+    •	Valores posibles: Never, Former, Current<br>
+    •	Descripción: Estado de tabaquismo.<br>
+28.	Alcohol_Consumption - Tipo: Categórico<br>
+    •	Valores posibles: Never, Occasionally, Frequently<br>
+    •	Descripción: Frecuencia de consumo de alcohol.<br>
+29.	DailyWaterIntake_L - Tipo: Numérico<br>
+    •	Unidad: litros por día<br>
+    •	Descripción: Consumo diario de agua.<br>
 
-Antecedentes Médicos
-30.	FamilyHistoryDiabetes - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Antecedentes familiares de diabetes.
-31.	Hypertension - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Presencia de hipertensión arterial.
-32.	Heart_Disease - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Antecedentes de enfermedad cardíaca.
-33.	Fatty_Liver - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Presencia de hígado graso.
-34.	PCOS - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Síndrome de ovario poliquístico.
-35.	Medication_Adherence - Tipo: Categórico
-    •	Valores posibles: Good, Average, Poor
-    •	Descripción: Nivel de adherencia a tratamientos médicos.
+Antecedentes Médicos<br>
+30.	FamilyHistoryDiabetes - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Antecedentes familiares de diabetes.<br>
+31.	Hypertension - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Presencia de hipertensión arterial.<br>
+32.	Heart_Disease - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Antecedentes de enfermedad cardíaca.<br>
+33.	Fatty_Liver - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Presencia de hígado graso.<br>
+34.	PCOS - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Síndrome de ovario poliquístico.<br>
+35.	Medication_Adherence - Tipo: Categórico<br>
+    •	Valores posibles: Good, Average, Poor<br>
+    •	Descripción: Nivel de adherencia a tratamientos médicos.<br>
 
-Variables Socioeconómicas
-36.	Work_Type - Tipo: Categórico
-    •	Valores posibles: Government, Private, Business, Student, Retired
-    •	Descripción: Tipo de ocupación o actividad laboral.
-37.	Residence_Type - Tipo: Categórico
-    •	Valores posibles: Urban, Rural
-    •	Descripción: Lugar de residencia.
+Variables Socioeconómicas<br>
+36.	Work_Type - Tipo: Categórico<br>
+    •	Valores posibles: Government, Private, Business, Student, Retired<br>
+    •	Descripción: Tipo de ocupación o actividad laboral.<br>
+37.	Residence_Type - Tipo: Categórico<br>
+    •	Valores posibles: Urban, Rural<br>
+    •	Descripción: Lugar de residencia.<br>
 
-Variables Objetivo
-38.	DiabetesRiskScore - Tipo: Numérico
-    •	Rango aproximado: 0 - 100
-    •	Descripción: Puntaje de riesgo de diabetes calculado a partir de múltiples variables.
-39.	AIHealthRecommendation - Tipo: Texto
-    •	Descripción: Recomendación generada por un sistema de IA en función del perfil de riesgo.
-40.	DoctorConsultationNeeded - Tipo: Categórico
-    •	Valores posibles: Yes, No
-    •	Descripción: Indica si se recomienda consulta médica.
-41.	Diabetes_Risk - Tipo: Categórico
-    •	Valores posibles: Low, Moderate, High
-    •	Descripción: Clasificación final del riesgo de diabetes.
+Variables Objetivo<br>
+38.	DiabetesRiskScore - Tipo: Numérico<br>
+    •	Rango aproximado: 0 - 100<br>
+    •	Descripción: Puntaje de riesgo de diabetes calculado a partir de múltiples variables.<br>
+39.	AIHealthRecommendation - Tipo: Texto<br>
+    •	Descripción: Recomendación generada por un sistema de IA en función del perfil de riesgo.<br>
+40.	DoctorConsultationNeeded - Tipo: Categórico<br>
+    •	Valores posibles: Yes, No<br>
+    •	Descripción: Indica si se recomienda consulta médica.<br>
+41.	Diabetes_Risk - Tipo: Categórico<br>
+    •	Valores posibles: Low, Moderate, High<br>
+    •	Descripción: Clasificación final del riesgo de diabetes.<br>
 
-METODOLOGÍA APLICADA:
+METODOLOGÍA APLICADA:<br>
 Con el objetico de explorar los factores asociados al riesgo de diabetes e identificar patrones, tendencias y segmentos poblacionales relevantes se utilizó la siguiente metodología:
 1.	Comprensión de los datos, se revisó el dataset para:
     •	Identificar y Clasificar variables.
@@ -218,7 +218,7 @@ Con el objetico de explorar los factores asociados al riesgo de diabetes e ident
 
 6.	Se buscan segmentos atípicos, para poder presentar in Insight interesante desde la perspectiva médica, se pensaron combinaciones inesperadas
 
-CONCLUSIONES Y HALLAZGOS RELEVANTES:
+CONCLUSIONES Y HALLAZGOS RELEVANTES:<br>
 La diabetes es una enfermedad multifactorial, por ese motivo no alcanza con observar 1 única variable, pero si bien la Obesidad es uno de los factores mas asociados con el riesgo alto de Diabetes, no podemos dejar fuera variables como los Antecedentes Familiares o la Edad
 
 El hallazgo más valioso del análisis fue detectar que, ademas de los factores tradicionales, la presencia de Antecedentes Familiares puede asociarse a niveles elevados de riesgo, incluso en individuos jóvenes y con IMC normal, sugiriendo que los factores genéticos podrían desempeñar un papel muy importante y asi, romper con la teoría de que el mayor riesgo lo poseen las personas obesas.
