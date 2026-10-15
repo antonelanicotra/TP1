@@ -156,67 +156,67 @@ Variables Objetivo<br>
     •	Descripción: Clasificación final del riesgo de diabetes.<br>
 
 METODOLOGÍA APLICADA:<br>
-Con el objetico de explorar los factores asociados al riesgo de diabetes e identificar patrones, tendencias y segmentos poblacionales relevantes se utilizó la siguiente metodología:
-1.	Comprensión de los datos, se revisó el dataset para:
-    •	Identificar y Clasificar variables.
-    •	Detectar valores nulos.
-    •	Verificar tipos de datos.
-    •	Comprender el significado de cada atributo.
-    Con esto se detectaron las siguientes variables de Interés:
-    •	Edad (Age)
-    •	IMC (BMI)
-    •	Circunferencia de cintura (WaistCircumferencecm)
-    •	Horas de sueño (Sleep_Hours)
-    •	Antecedentes familiares (FamilyHistoryDiabetes)
-    •	Riesgo de diabetes (Diabetes_Risk)
+Con el objetico de explorar los factores asociados al riesgo de diabetes e identificar patrones, tendencias y segmentos poblacionales relevantes se utilizó la siguiente metodología:<br>
+1.	Comprensión de los datos, se revisó el dataset para:<br>
+    •	Identificar y Clasificar variables.<br>
+    •	Detectar valores nulos.<br>
+    •	Verificar tipos de datos.<br>
+    •	Comprender el significado de cada atributo.<br>
+    Con esto se detectaron las siguientes variables de Interés:<br>
+    •	Edad (Age)<br>
+    •	IMC (BMI)<br>
+    •	Circunferencia de cintura (WaistCircumferencecm)<br>
+    •	Horas de sueño (Sleep_Hours)<br>
+    •	Antecedentes familiares (FamilyHistoryDiabetes)<br>
+    •	Riesgo de diabetes (Diabetes_Risk)<br>
 
-2.	 Análisis descriptivo, para poder encontrar la variable objetivo sobre la cual trabajar, se calcularon:
-    •	Media
-    •	Mediana
-    •	Desviación estándar
-    •	Mínimo y máximo
-    •	Cuartiles
+2.	 Análisis descriptivo, para poder encontrar la variable objetivo sobre la cual trabajar, se calcularon:<br>
+    •	Media<br>
+    •	Mediana<br>
+    •	Desviación estándar<br>
+    •	Mínimo y máximo<br>
+    •	Cuartiles<br>
 
-3.	Formular hipótesis, con los patrones observados se formulan las siguientes hipótesis:
-    •	H1: Los pacientes con obesidad presentan un riesgo de diabetes elevado.
-    •	H2: Una mayor circunferencia de cintura aumenta el riesgo de diabetes.
-    •	H3: Los individuos con antecedentes familiares tienen mayor probabilidad de presentar riesgo elevado.
-    •	H4: La falta de sueño se asocia con mayores niveles de riesgo.
-    •	H5: La probabilidad de riesgo alto aumenta con la edad.
+3.	Formular hipótesis, con los patrones observados se formulan las siguientes hipótesis:<br>
+    •	H1: Los pacientes con obesidad presentan un riesgo de diabetes elevado.<br>
+    •	H2: Una mayor circunferencia de cintura aumenta el riesgo de diabetes.<br>
+    •	H3: Los individuos con antecedentes familiares tienen mayor probabilidad de presentar riesgo elevado.<br>
+    •	H4: La falta de sueño se asocia con mayores niveles de riesgo.<br>
+    •	H5: La probabilidad de riesgo alto aumenta con la edad.<br>
 
-4.	Se segmentó a la población creando grupos específicos con el objetivo de analizar perfiles concretos y detectar diferentes comportamientos
-    •	Grupo de ICM + Riesgo de Diebetes
-        o	G0 Bajo Peso, Alto Riesgo
-        o	G1 Peso Normal, Alto Riesgo
-        o	G2 Peso Normal, Riesgo Normal
-        o	G3 Sobrepeso, Alto Riesgo
-    •	Grupo Obesidad, en base a si el ICM es >=25:
-        o	Obeso
-        o	No Obeso
-    •	Grupo Cintura + Riesgo
-        o	GC0 Cintura Chica, Alto Riesgo
-        o	GC1 Cintura Normal, Alto Riesgo
-        o	GC2 Cintura Normal, Riesgo Normal
-        o	GC3 Cintura Grande, Alto Riesgo
-    •	Grupo Sueño:
-        o	Poco Sueño (< 6 horas)
-        o	Sueño Normal (6-8 horas) 
-        o	Mucho Sueño (> 8 horas)
-    •	Grupo Edad:
-        o	Jovenes <30
-        o	Adultos Jóvenes 30-45
-        o	Adultos 45-60
-        o	Adultos Mayores >60
+4.	Se segmentó a la población creando grupos específicos con el objetivo de analizar perfiles concretos y detectar diferentes comportamientos<br>
+    •	Grupo de ICM + Riesgo de Diebetes<br>
+        o	G0 Bajo Peso, Alto Riesgo<br>
+        o	G1 Peso Normal, Alto Riesgo<br>
+        o	G2 Peso Normal, Riesgo Normal<br>
+        o	G3 Sobrepeso, Alto Riesgo<br>
+    •	Grupo Obesidad, en base a si el ICM es >=25:<br>
+        o	Obeso<br>
+        o	No Obeso<br>
+    •	Grupo Cintura + Riesgo<br>
+        o	GC0 Cintura Chica, Alto Riesgo<br>
+        o	GC1 Cintura Normal, Alto Riesgo<br>
+        o	GC2 Cintura Normal, Riesgo Normal<br>
+        o	GC3 Cintura Grande, Alto Riesgo<br>
+    •	Grupo Sueño:<br>
+        o	Poco Sueño (< 6 horas)<br>
+        o	Sueño Normal (6-8 horas) <br>
+        o	Mucho Sueño (> 8 horas)<br>
+    •	Grupo Edad:<br>
+        o	Jovenes <30<br>
+        o	Adultos Jóvenes 30-45<br>
+        o	Adultos 45-60<br>
+        o	Adultos Mayores >60<br>
 
-5.	Análisis visual, para poder generar conclusiones se analizaron los siguientes gráficos:
-    •	Histogramas con y sin KDE
-    •	Boxplots
-    •	ScatterPlots
-    •	Barras
-    •	Lineas
-    •	Torta
+5.	Análisis visual, para poder generar conclusiones se analizaron los siguientes gráficos:<br>
+    •	Histogramas con y sin KDE<br>
+    •	Boxplots<br>
+    •	ScatterPlots<br>
+    •	Barras<br>
+    •	Lineas<br>
+    •	Torta<br>
 
-6.	Se buscan segmentos atípicos, para poder presentar in Insight interesante desde la perspectiva médica, se pensaron combinaciones inesperadas
+6.	Se buscan segmentos atípicos, para poder presentar in Insight interesante desde la perspectiva médica, se pensaron combinaciones inesperadas<br>
 
 CONCLUSIONES Y HALLAZGOS RELEVANTES:<br>
 La diabetes es una enfermedad multifactorial, por ese motivo no alcanza con observar 1 única variable, pero si bien la Obesidad es uno de los factores mas asociados con el riesgo alto de Diabetes, no podemos dejar fuera variables como los Antecedentes Familiares o la Edad
